@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       github.com/stevenjgibbons/ccdetect git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-khaki-heron.sh
-        container: qc.acc_sloppy-razzmatazz-caterpillar
+        - /usr/bin/env sh .sqa/script.scanty-zucchini-quoll.sh
+        container: qc.acc_silly-denim-whale
   QC.Doc:
     repos:
       github.com/stevenjgibbons/ccdetect find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-thistle-bombay.sh
-        container: qc.doc_muzzy-olive-tarantula
+        - /usr/bin/env sh .sqa/script.hazy-khaki-dane.sh
+        container: qc.doc_zippy-saffron-turtle
       github.com/stevenjgibbons/ccdetect git:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-heliotrope-kiwi.sh
-        container: qc.doc_beady-myrtle-koala
+        - /usr/bin/env sh .sqa/script.muzzy-amaranth-millipede.sh
+        container: qc.doc_pokey-jade-akbash
       github.com/stevenjgibbons/ccdetect markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-alizarin-kingfisher.sh
-        container: qc.doc_dorky-eggplant-armadillo
+        - /usr/bin/env sh .sqa/script.trippy-thistle-zebu.sh
+        container: qc.doc_snoopy-salmon-wallaby
   QC.Lic:
     repos:
       github.com/stevenjgibbons/ccdetect licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-magnolia-kiwi.sh
-        container: qc.lic_boozy-xanthic-rhinoceros
+        - /usr/bin/env sh .sqa/script.goopy-ecru-wallaby.sh
+        container: qc.lic_sleepy-aqua-jaguar
   QC.Sec:
     repos:
       github.com/stevenjgibbons/ccdetect bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-malachite-buffalo.sh
-        container: qc.sec_surly-cobalt-millipede
+        - /usr/bin/env sh .sqa/script.breezy-lemon-seahorse.sh
+        container: qc.sec_stealthy-pumpkin-sponge
   QC.Sty:
     repos:
       github.com/stevenjgibbons/ccdetect flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-tomato-panda.sh
-        container: qc.sty_beady-corn-crab
+        - /usr/bin/env sh .sqa/script.snazzy-saffron-liger.sh
+        container: qc.sty_gimpy-malachite-chimpanzee
   QC.Uni:
     repos:
       github.com/stevenjgibbons/ccdetect pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-myrtle-wolverine.sh
-        container: qc.uni_flabby-celadon-markhor
+        - /usr/bin/env sh .sqa/script.paltry-persimmon-whippet.sh
+        container: qc.uni_messy-burgundy-ferret
   QC.Ver:
     repos:
       github.com/stevenjgibbons/ccdetect get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-lilac-skunk.sh
-        container: qc.ver_homely-chestnut-coati
+        - /usr/bin/env sh .sqa/script.wiggy-turquoise-numbat.sh
+        container: qc.ver_stuffy-saffron-kudu
 timeout: 5400
